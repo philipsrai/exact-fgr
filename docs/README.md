@@ -114,7 +114,7 @@ export OMP_NUM_THREADS=8
 Execute the single-point program using
 
 ```bash
-./exact_fgr
+./exact_fgr > out.log &
 ```
 
 ### Running the Parameter-Grid Program
@@ -122,8 +122,9 @@ Execute the single-point program using
 Execute the parameter-grid program using
 
 ```bash
-./exact_fgr_grid
+./exact_fgr_grid > out.log &
 ```
+where `out.log` is a user-defined file that stores the terminal output.
 
 The program performs calculations over the specified parameter grid and generates the corresponding output and convergence log files.
 
