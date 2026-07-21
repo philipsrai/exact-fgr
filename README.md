@@ -46,14 +46,16 @@ ifort -O3 -qopenmp exact_fgr_grid.f90 -o exact_fgr_grid
 Run the executables using
 
 ```bash
-./exact_fgr
+./exact_fgr > out.log &
 ```
 
 or
 
 ```bash
-./exact_fgr_grid
+./exact_fgr_grid > out.log &
 ```
+
+where `out.log` is a user-defined file that stores the terminal output.
 
 ## Documentation
 
