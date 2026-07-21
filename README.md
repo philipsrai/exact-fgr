@@ -2,15 +2,6 @@
 
 **exact-fgr** is an open-source Fortran package for calculating nonadiabatic electron-transfer rate constants using the **Fermi Golden Rule (FGR)** method.
 
-## Repository Structure
-
-```text
-exact-fgr/
-├── src/
-├── docs/
-└── examples/
-```
-
 ## Getting Started
 
 Compile the programs from the `src` directory using either **gfortran** or **ifort**.
