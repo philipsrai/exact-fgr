@@ -1,20 +1,6 @@
 # exact-fgr
 
-**exact-fgr** is an open-source Fortran package for calculating nonadiabatic electron-transfer rate constants using the **Exact Fermi Golden Rule (FGR)** method.
-
-The package computes rate constants using the following methods:
-
-1. Exact Fermi Golden Rule (Exact FGR)
-2. High-Temperature (HT) approximation
-3. Short-Time (ST) approximation
-4. Marcus theory
-
-Two programs are included:
-
-- **exact_fgr_sgpt.f90** – Performs single-point calculations.
-- **exact_fgr_grid.f90** – Performs large-scale parameter-grid calculations for constructing Marcus validity maps.
-
-Both programs support OpenMP shared-memory parallelization. The parameter-grid program can also be divided into independent jobs for efficient execution on HPC clusters.
+**exact-fgr** is an open-source Fortran package for calculating nonadiabatic electron-transfer rate constants using the **Fermi Golden Rule (FGR)** method.
 
 ## Repository Structure
 
