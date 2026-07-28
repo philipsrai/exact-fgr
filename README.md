@@ -38,6 +38,10 @@ where `out.log` is a user-defined file that stores the terminal output.
 
 Complete documentation, including compilation instructions, input parameters, numerical convergence strategy, and descriptions of the output files, is available in **docs/User_Manual.md**.
 
+### Analysis Utilities
+
+Utility scripts for post-processing output files are available in the `analysis/` directory.
+
 ## References
 
 Citation information will be added later.
